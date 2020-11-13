@@ -7,11 +7,13 @@ This lab using Python package Pandas to import PUDs - Planned Unit Development -
 turns the afforable housing csv into a geodataframe and merges the shapefile and the csv file based on the geographic intersection. A master geodataframe
 is created containing the information about zoning exemptions as well as affordable housing projects at the same geographic locations. The final step 
 merges this with the a zoning categories crosswalk to get the zoning cateogories in "plain english." The final output is a map of the PUDs that offer 
-affordable housing.
+affordable housing. A map was also created in carto to show this data (linked below). 
 
 The final output: Map of PUDS the offer affordable housing
 
 ![](images/puds.png)
+
+Link to Carto: https://comorehouse1620.carto.com/builder/79bea754-1aed-4de8-b6df-05cbffee979a/embed
 
 ### What you will submit:
 A link to your Github repo. The repo must contain your Python code (either as script in `.py` or a notebook in `.ipynb` format). The `README` of your repo should briefly summarize the project (in your own words), show an image of your final output, *and* link to your final map in Carto. You do not need to include the input/output files (as I have here) but it might be a good idea if you want to use this repo as part of your portfolio.
